@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player.rb" afterPath="$PROJECT_DIR$/app/models/player.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360774709332" ignored="false" />
-    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360796268863" ignored="false" />
+    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360799174726" ignored="false" />
     <file path="/20130213171922_add_game_console_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776334242" ignored="false" />
     <file path="/20130213172954_alter_player_attributes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776861029" ignored="false" />
     <file path="/20130213173607_alter_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360777135710" ignored="false" />
-    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360796492312" ignored="false" />
+    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360798822006" ignored="false" />
     <file path="/20130213230251_update_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360796763155" ignored="false" />
     <file path="/20130213231252_change_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360797286300" ignored="false" />
+    <file path="/squad.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360798835160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,64 +32,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="62" selection-start="867" selection-end="867" vertical-scroll-proportion="-20.625">
+            <state line="30" column="28" selection-start="750" selection-end="750" vertical-scroll-proportion="0.5614035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="79" selection-start="133" selection-end="133" vertical-scroll-proportion="0.05836576">
+            <state line="2" column="87" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130213171922_add_game_console_to_players.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130213171922_add_game_console_to_players.rb">
+      <file leaf-file-name="squad.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="105" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130213172954_alter_player_attributes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130213172954_alter_player_attributes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130213173607_alter_player.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130213173607_alter_player.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130213230251_update_player.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130213230251_update_player.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130213231252_change_players.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130213231252_change_players.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="4" column="62" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +107,12 @@
         <option value="$PROJECT_DIR$/db/migrate/20130213171922_add_game_console_to_players.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130213172954_alter_player_attributes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130213173607_alter_player.rb" />
-        <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130213230251_update_player.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130213231252_change_players.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/squad.rb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
+        <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -552,34 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130213172954_alter_player_attributes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130213171922_add_game_console_to_players.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="105" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="62" selection-start="867" selection-end="867" vertical-scroll-proportion="-20.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -587,30 +543,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130213173607_alter_player.rb">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130213230251_update_player.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="21" column="19" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130213231252_change_players.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+        <state line="4" column="62" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="79" selection-start="133" selection-end="133" vertical-scroll-proportion="0.05836576">
+        <state line="2" column="87" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="750" selection-end="750" vertical-scroll-proportion="0.5614035">
           <folding />
         </state>
       </provider>
