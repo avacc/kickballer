@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/index.html.erb" afterPath="$PROJECT_DIR$/app/views/players/index.html.erb" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +35,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="51" selection-start="876" selection-end="876" vertical-scroll-proportion="0.67836255">
+            <state line="31" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.61988306">
               <folding />
             </state>
           </provider>
@@ -591,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="876" selection-end="876" vertical-scroll-proportion="0.67836255">
+        <state line="31" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.61988306">
           <folding />
         </state>
       </provider>
