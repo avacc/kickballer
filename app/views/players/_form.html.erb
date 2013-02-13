@@ -23,15 +23,15 @@
   </div>
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.text_area :email %>
+    <%= f.text_field :email %>
   </div>
   <div class="field">
     <%= f.label :gamer_tag %><br />
-    <%= f.text_area :gamer_tag %>
+    <%= f.text_field :gamer_tag %>
   </div>
   <div class="field">
-    <%= f.label :preferred_class %><br />
-    <%= f.text_field :preferred_class %>
+    <%= f.label :squad %><br />
+    <%= f.collection_select :squad_id, Squad.all, :id, :name%>
   </div>
 
   <div class="actions">
