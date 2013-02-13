@@ -30,7 +30,7 @@
     <%= f.text_field :gamer_tag %>
   </div>
   <div class="field">
-    <%= f.label :squad_id %><br />
+    <%= f.label "Squad"%><br />
     <%= f.collection_select :squad_id, Squad.all, :id, :name%>
   </div>
   <div class="actions">
