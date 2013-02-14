@@ -31,9 +31,9 @@
     <%= f.label :preferred_class %><br />
     <%= f.text_field :preferred_class %>
   </div>
-  <div>
+  <div class="field">
       <%= f.label :squad %><br />
-      <%= f.collection_select :players, :squad_id, Squad.all, :id, :name %>
+      <%= f.collection_select :player, :squad_id, Squad.all, :id, :name %>
   </div>
   <div class="actions">
     <%= f.submit %>
