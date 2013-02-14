@@ -7,7 +7,7 @@
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360774709332" ignored="false" />
-    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360805168747" ignored="false" />
+    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360805666685" ignored="false" />
     <file path="/20130213171922_add_game_console_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776334242" ignored="false" />
     <file path="/20130213172954_alter_player_attributes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776861029" ignored="false" />
     <file path="/20130213173607_alter_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360777135710" ignored="false" />
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="92" selection-start="154" selection-end="154" vertical-scroll-proportion="0.11173184">
+            <state line="4" column="92" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="637" selection-end="646" vertical-scroll-proportion="-8.125">
+            <state line="35" column="37" selection-start="952" selection-end="952" vertical-scroll-proportion="0.64912283">
               <folding />
             </state>
           </provider>
@@ -347,6 +347,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="kickballer" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -559,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="637" selection-end="646" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="19" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
@@ -596,7 +596,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="92" selection-start="154" selection-end="154" vertical-scroll-proportion="0.11173184">
+        <state line="4" column="92" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="952" selection-end="952" vertical-scroll-proportion="0.64912283">
           <folding />
         </state>
       </provider>
