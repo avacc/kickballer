@@ -3,19 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player.rb" afterPath="$PROJECT_DIR$/app/models/player.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/squad.rb" afterPath="$PROJECT_DIR$/app/models/squad.rb" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360774709332" ignored="false" />
-    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360803862166" ignored="false" />
+    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360804134476" ignored="false" />
     <file path="/20130213171922_add_game_console_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776334242" ignored="false" />
     <file path="/20130213172954_alter_player_attributes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776861029" ignored="false" />
     <file path="/20130213173607_alter_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360777135710" ignored="false" />
-    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360803326903" ignored="false" />
+    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360804204062" ignored="false" />
     <file path="/20130213230251_update_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360796763155" ignored="false" />
     <file path="/20130213231252_change_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360797286300" ignored="false" />
-    <file path="/squad.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360798835160" ignored="false" />
+    <file path="/squad.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360804244933" ignored="false" />
     <file path="/index.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360803495937" ignored="false" />
     <file path="/20130207010727_create_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360801213913" ignored="false" />
     <file path="/20130214002125_add_indx.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360801766851" ignored="false" />
@@ -56,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="squad.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="squad.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="2" column="38" selection-start="91" selection-end="91" vertical-scroll-proportion="0.05586592">
               <folding />
             </state>
           </provider>
@@ -68,7 +69,7 @@
       <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="2" column="95" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="33" selection-start="927" selection-end="927" vertical-scroll-proportion="0.8245614">
+            <state line="37" column="73" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-15.125">
               <folding />
             </state>
           </provider>
@@ -125,13 +126,13 @@
         <option value="$PROJECT_DIR$/db/migrate/20130213230251_update_player.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130213231252_change_players.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/squad.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130214002125_add_indx.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130214003824_remove_players.rb" />
-        <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/player.rb" />
+        <option value="$PROJECT_DIR$/app/models/squad.rb" />
       </list>
     </option>
   </component>
@@ -571,20 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="40" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.75">
@@ -599,9 +586,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="95" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="927" selection-end="927" vertical-scroll-proportion="0.8245614">
+        <state line="37" column="73" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-15.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="38" selection-start="91" selection-end="91" vertical-scroll-proportion="0.05586592">
           <folding />
         </state>
       </provider>

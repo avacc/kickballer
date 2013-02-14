@@ -1,4 +1,4 @@
 class Squad < ActiveRecord::Base
   has_many :players
-  attr_accessible :name, :players
+  attr_accessible :name, :players, :id
 end
