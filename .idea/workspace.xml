@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/index.html.erb" afterPath="$PROJECT_DIR$/app/views/players/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb" afterPath="$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +16,8 @@
     <file path="/20130213231252_change_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360797286300" ignored="false" />
     <file path="/squad.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360798835160" ignored="false" />
     <file path="/index.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360800453058" ignored="false" />
+    <file path="/20130207010727_create_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360801213913" ignored="false" />
+    <file path="/20130214002125_add_indx.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360801547084" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.5847953">
+            <state line="20" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
@@ -81,6 +83,24 @@
         <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="62" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130207010727_create_players.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130214002125_add_indx.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130214002125_add_indx.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="10" selection-start="126" selection-end="126" vertical-scroll-proportion="0.14591439">
               <folding />
             </state>
           </provider>
@@ -123,6 +143,8 @@
         <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/players/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130214002125_add_indx.rb" />
       </list>
     </option>
   </component>
@@ -567,9 +589,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="62" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="31" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
@@ -581,16 +610,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="-19.375">
+        <state line="4" column="62" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130207010727_create_players.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.5847953">
+        <state line="12" column="34" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130214002125_add_indx.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="126" selection-end="126" vertical-scroll-proportion="0.14591439">
           <folding />
         </state>
       </provider>

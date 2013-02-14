@@ -6,7 +6,6 @@ class CreatePlayers < ActiveRecord::Migration
       t.text :email
       t.text :gamer_tag
       t.string :preferred_class
-
       t.timestamps
     end
   end
