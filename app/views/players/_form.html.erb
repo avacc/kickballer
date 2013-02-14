@@ -32,7 +32,7 @@
     <%= f.text_field :preferred_class %>
   </div>
   <div class="foo">
-    <%= f.label :squad %><br />
+
     <%= f.collection_select :squad_id, Squad.all, :id, :name %>
   </div>
   <div class="actions">
