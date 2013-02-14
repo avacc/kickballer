@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="" />
+    <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
+    </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360774709332" ignored="false" />
-    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360809161939" ignored="false" />
+    <file path="/_form.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360814108749" ignored="false" />
     <file path="/20130213171922_add_game_console_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776334242" ignored="false" />
     <file path="/20130213172954_alter_player_attributes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776861029" ignored="false" />
     <file path="/20130213173607_alter_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360777135710" ignored="false" />
@@ -88,19 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-14.791667">
+            <state line="59" column="13" selection-start="1531" selection-end="1531" vertical-scroll-proportion="1.7142857">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130207010830_create_squads.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20130207010830_create_squads.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130207010830_create_squads.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.11673152">
+            <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +162,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="692" />
+    <option name="x" value="49" />
     <option name="y" value="22" />
     <option name="width" value="1660" />
     <option name="height" value="937" />
@@ -520,7 +522,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="692" y="22" width="1660" height="937" extended-state="0" />
+    <frame x="49" y="22" width="1660" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -648,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="4" selection-start="1341" selection-end="1341" vertical-scroll-proportion="-14.791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130214014858_add_gender_to_player.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="32" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
@@ -671,7 +666,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130207010830_create_squads.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.11673152">
+        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="13" selection-start="1531" selection-end="1531" vertical-scroll-proportion="1.7142857">
           <folding />
         </state>
       </provider>
