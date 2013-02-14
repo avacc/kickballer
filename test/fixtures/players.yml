@@ -3,13 +3,15 @@
 one:
   first_name: MyString
   last_name: MyString
-  email: MyText
-  gamer_tag: MyText
+  email: MyString
+  gamer_tag: MyString
   preferred_class: MyString
+  squad: 
 
 two:
   first_name: MyString
   last_name: MyString
-  email: MyText
-  gamer_tag: MyText
+  email: MyString
+  gamer_tag: MyString
   preferred_class: MyString
+  squad: 

@@ -11,8 +11,6 @@
     </div>
   <% end %>
 
-
-
   <div class="field">
     <%= f.label :first_name %><br />
     <%= f.text_field :first_name %>
@@ -30,7 +28,12 @@
     <%= f.text_field :gamer_tag %>
   </div>
   <div class="field">
-    <%= f.collection_select :squad_id, Squad.all, :id, :name%>
+    <%= f.label :preferred_class %><br />
+    <%= f.text_field :preferred_class %>
+  </div>
+  <div class="field">
+    <%= f.label :squad %><br />
+    <%= f.text_field :squad %>
   </div>
   <div class="actions">
     <%= f.submit %>
