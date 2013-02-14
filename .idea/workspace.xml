@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/players/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/player.rb" afterPath="$PROJECT_DIR$/app/models/player.rb" />
     </list>
     <ignored path="kickballer.iws" />
@@ -12,7 +11,7 @@
     <file path="/20130213171922_add_game_console_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776334242" ignored="false" />
     <file path="/20130213172954_alter_player_attributes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360776861029" ignored="false" />
     <file path="/20130213173607_alter_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360777135710" ignored="false" />
-    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360802932987" ignored="false" />
+    <file path="/player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360803326903" ignored="false" />
     <file path="/20130213230251_update_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360796763155" ignored="false" />
     <file path="/20130213231252_change_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360797286300" ignored="false" />
     <file path="/squad.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360798835160" ignored="false" />
@@ -65,19 +64,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+            <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.05586592">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="0.67836255">
+            <state line="36" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="-14.5">
               <folding />
             </state>
           </provider>
@@ -553,6 +552,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="-14.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/squad.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="19" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
@@ -562,14 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="989" selection-end="989" vertical-scroll-proportion="0.67836255">
+        <state line="2" column="90" selection-start="144" selection-end="144" vertical-scroll-proportion="0.05586592">
           <folding />
         </state>
       </provider>
