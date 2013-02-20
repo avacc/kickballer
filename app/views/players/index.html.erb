@@ -1,9 +1,10 @@
-<h1>Listing players</h1>
+<h1 class=redglow style="text-align: center">Listing players</h1>
 
-<table>
+<table class=redglow>
   <tr>
     <th>First name</th>
     <th>Last name</th>
+    <th>Gender</th>
     <th>Email</th>
     <th>Gamer tag</th>
     <th>Preferred class</th>
@@ -17,6 +18,7 @@
   <tr>
     <td><%= player.first_name %></td>
     <td><%= player.last_name %></td>
+    <td><%= player.gender %></td>
     <td><%= player.email %></td>
     <td><%= player.gamer_tag %></td>
     <td><%= player.preferred_class %></td>
@@ -30,4 +32,5 @@
 
 <br />
 
-<%= link_to 'New Player', new_player_path %>
+<%= link_to 'New Player', new_player_path %> <br>
+<%= link_to 'Squads', squads_path %>

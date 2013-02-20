@@ -1,6 +1,7 @@
-<h1>Listing squads</h1>
+<h1 class="redglow" style="text-align: center">Listing squads</h1>
 
-<table>
+<div class="container">
+<table class="redglow">
   <tr>
     <th>Name</th>
     <th></th>
@@ -17,7 +18,8 @@
   </tr>
 <% end %>
 </table>
-
+</div>
 <br />
 
-<%= link_to 'New Squad', new_squad_path %>
+<%= link_to 'New Squad', new_squad_path %> <br>
+<%= link_to 'Players', players_path %>

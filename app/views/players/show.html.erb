@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div class="redglow">
 <p>
   <b>First name:</b>
   <%= @player.first_name %>
@@ -27,9 +27,9 @@
 
 <p>
   <b>Squad:</b>
-  <%= @player.squad %>
+  <%= @player.squad.name %>
 </p>
-
+</div>
 
 <%= link_to 'Edit', edit_player_path(@player) %> |
 <%= link_to 'Back', players_path %>

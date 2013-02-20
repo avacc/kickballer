@@ -11,3 +11,28 @@
  *= require_self
  *= require_tree .
  */
+.whiteglow {
+    text-shadow: 0 0 0.4em #BBBBCC, 0 0 1em #97D2FD;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+
+.redglow {
+    text-shadow: 0 0 0.2em rgb(146, 85, 28), 0 0 0.7em #FF2222;
+    color: rgb(255, 233, 179);
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+
+.greenglow {
+    text-shadow: 0 0 0.2em rgb(105, 200, 44), 0 0 0.7em #77FF77;
+    color: rgb(216, 252, 160);
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('http://mp1st.com/wp-content/uploads/2011/09/Battlefield-31.jpeg');
+    background-repeat: no-repeat;
+}

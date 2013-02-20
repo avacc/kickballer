@@ -11,60 +11,58 @@
     </div>
   <% end %>
   <div class="container">
-   <%= yield %>
-  </div>
-   <div class="control-group">
+
+   <div class="control-group, greenglow">
     <%= f.label :first_name , class: 'control-label'%>
     <div class="controls">
       <%= f.text_field :first_name %>
     </div>
-   </div>
+   </div><br>
 
-    <div class="control-group">
-      <%= f.label :last_name %>
+    <div class="control-group, greenglow">
+      <%= f.label :last_name, class: 'control-label' %>
       <div class="controls">
         <%= f.text_field :last_name %>
       </div>
-    </div>
+    </div><br>
 
-    <div class="control-group">
-      <%= f.label :gender %>
+    <div class="control-group, greenglow">
+      <%= f.label :gender, class: 'control-label' %>
       <div class="controls">
-        <%= f.radio_button :gender, '0' %> <%=  f.label :status, 'Male' %>
-        <%= f.radio_button :gender, '1' %> <%=  f.label :status, 'Female' %>
+        <%= f.radio_button :gender, 'Male' %> <%=  f.label :status, 'Male' %>
+        <%= f.radio_button :gender, 'Female' %> <%=  f.label :status, 'Female' %>
       </div>
-    </div>
-    <div class="control-group">
-      <%= f.label :email %>
+    </div><br>
+    <div class="control-group, greenglow">
+      <%= f.label :email, class: 'control-label' %>
       <div class="controls">
         <%= f.text_field :email %>
       </div>
-    </div>
+    </div><br>
 
-    <div class="control-group">
-      <%= f.label :gamer_tag %>
+    <div class="control-group, greenglow">
+      <%= f.label :gamer_tag, class: 'control-label' %>
       <div class="controls">
         <%= f.text_field :gamer_tag %>
       </div>
-    </div>
+    </div><br>
 
-    <div class="control-group">
-      <%= f.label :preferred_class %>
+    <div class="control-group, greenglow">
+      <%= f.label :preferred_class, class: 'control-label' %>
       <div class="controls">
         <%= f.text_field :preferred_class %>
       </div>
-    </div>
+    </div><br>
 
-    <div class="control-group">
-      <%= f.label :squad %>
+    <div class="control-group, greenglow">
+      <%= f.label :squad, class: 'control-label' %>
       <div class="controls">
         <%= f.collection_select :squad_id, Squad.all, :id, :name %>
       </div>
-    </div>
+    </div><br>
 
-    <div class="form-actions">
+    <div class="form-actions, span6" style="text-align: center">
       <%= f.submit class: "btn btn-primary"%>
     </div>
-
-    <a href="kickball.herokuapp.com/squad"> Squads</a>
+  </div>
 <% end %>
