@@ -9,6 +9,7 @@
     <th>Gamer tag</th>
     <th>Preferred class</th>
     <th>Squad</th>
+    <th>Battlelog user</th>
     <th></th>
     <th></th>
     <th></th>
@@ -23,6 +24,7 @@
     <td><%= player.gamer_tag %></td>
     <td><%= player.preferred_class %></td>
     <td><%= player.squad.name %></td>
+    <td><%= player.battlelog_user %></td>
     <td><%= link_to 'Show', player %></td>
     <td><%= link_to 'Edit', edit_player_path(player) %></td>
     <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>

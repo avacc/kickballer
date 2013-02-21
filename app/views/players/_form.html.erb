@@ -61,6 +61,13 @@
       </div>
     </div><br>
 
+    <div class="control-group, greenglow">
+      <%= f.label "Battlelog user?"  %>
+      <div class="controls">
+        <%= f.check_box :battlelog_user, 'Yes', 'No' %> <%= f.label :status, 'Yes' %>
+      </div>
+    </div><br>
+
     <div class="form-actions, span6" style="text-align: center">
       <%= f.submit class: "btn btn-primary"%>
     </div>
