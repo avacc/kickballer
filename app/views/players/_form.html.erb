@@ -62,9 +62,9 @@
     </div><br>
 
     <div class="control-group, greenglow">
-      <%= f.label "Battlelog user?"  %>
+      <%= f.label :battlelog_user, class: 'control-label'  %>
       <div class="controls">
-        <%= f.check_box :battlelog_user, 'Yes', 'No' %> <%= f.label :status, 'Yes' %>
+        <%= f.check_box :battlelog_user, { :class => 'blu_check' } , 'Yes', 'No' %> <%= f.label :status, 'Yes' %>
       </div>
     </div><br>
 
