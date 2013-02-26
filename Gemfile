@@ -34,6 +34,9 @@ end
 group :test do
   gem 'capybara'
 end
+
+gem 'omniauth'
+gem 'rails_admin'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -48,3 +51,6 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+
+gem "devise"

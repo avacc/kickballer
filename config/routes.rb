@@ -1,4 +1,6 @@
 Kickballer::Application.routes.draw do
+  devise_for :users
+
   resources :players
 
   resources :squads
