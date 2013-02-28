@@ -36,7 +36,7 @@ group :test do
 end
 
 gem 'omniauth'
-gem 'rails_admin'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

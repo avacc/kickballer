@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-before do
-  sign_in
-end
+##before do
+  ##sign_in
+##end
 
 describe "Players" do
   describe "GET /players" do
