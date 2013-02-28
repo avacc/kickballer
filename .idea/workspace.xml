@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/players/index.html.erb" afterPath="$PROJECT_DIR$/app/views/players/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kickballer.iml" afterPath="$PROJECT_DIR$/.idea/kickballer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/player_spec.rb" afterPath="$PROJECT_DIR$/spec/models/player_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/players_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/players_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/squad_spec.rb" afterPath="$PROJECT_DIR$/spec/features/squad_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +22,7 @@
     <file path="/20130214014858_add_gender_to_player.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1360806676948" ignored="false" />
     <file path="/new.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362017726778" ignored="false" />
     <file path="/application.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362015254612" ignored="false" />
-    <file path="/application.css" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362018574625" ignored="false" />
+    <file path="/application.css" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362019398089" ignored="false" />
     <file path="/edit.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1361398915832" ignored="false" />
     <file path="/show.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1361405824311" ignored="false" />
     <file path="/20130221000200_add_battlelog_to_players.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1361404958606" ignored="false" />
@@ -81,19 +72,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_links.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_links.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="98" selection-start="625" selection-end="625" vertical-scroll-proportion="0.3288364">
+            <state line="13" column="98" selection-start="625" selection-end="625" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="96" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
+            <state line="68" column="99" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.6596434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,17 +124,6 @@
               <folding>
                 <element signature="e#21#47#0" expanded="true" />
                 <element signature="e#825#851#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/players/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,8 +181,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -1102,13 +1091,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="2" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
@@ -1210,16 +1192,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="96" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
+        <state line="13" column="98" selection-start="625" selection-end="625" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="98" selection-start="625" selection-end="625" vertical-scroll-proportion="0.3288364">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="99" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.6596434">
           <folding />
         </state>
       </provider>
