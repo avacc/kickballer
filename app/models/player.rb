@@ -9,4 +9,5 @@ class Player < ActiveRecord::Base
       :message =>  "Please enter a valid email address"}
   validates :preferred_class, :presence => true
   validates :gamer_tag, :presence => true, :uniqueness => true
+  scope :recent, where("players.created_at >= ?", 7.days.ago)
 end

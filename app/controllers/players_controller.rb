@@ -80,4 +80,13 @@ class PlayersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def recent
+    @players = Player.recent
+
+    respond_to do |format|
+      format.html
+      format.json { render json: @players}
+    end
+  end
 end
