@@ -3,8 +3,3 @@ class ApplicationController < ActionController::Base
   before_filter :authenticate_user!
 end
 
-class ApplicationHelper
-  def recent_players
-    Player.recent
-  end
-end

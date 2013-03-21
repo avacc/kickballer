@@ -1,0 +1,39 @@
+<h1 class=redglow style="text-align: center">Listing Recent Players</h1>
+
+<table class=redglow>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Gender</th>
+    <th>Email</th>
+    <th>Gamer tag</th>
+    <th>Preferred class</th>
+    <th>Squad</th>
+    <th>Battlelog user</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @players.each do |player| %>
+      <tr>
+        <td><%= player.first_name %></td>
+        <td><%= player.last_name %></td>
+        <td><%= player.gender %></td>
+        <td><%= player.email %></td>
+        <td><%= player.gamer_tag %></td>
+        <td><%= player.preferred_class %></td>
+        <td><%= player.squad.name %></td>
+        <td><%= player.battlelog_user %></td>
+        <td><%= link_to 'Show', player %></td>
+        <td><%= link_to 'Edit', edit_player_path(player) %></td>
+        <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'Back', players_path %><br>
+<%= link_to 'New Player', new_player_path %> <br>
+<%= link_to 'Squads', squads_path %>

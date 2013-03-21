@@ -13,11 +13,21 @@ class PlayersController < ApplicationController
   # GET /players/1
   # GET /players/1.json
   def show
+
     @player = Player.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @player }
+    end
+  end
+
+  def recent
+    @players = Player.recent
+
+    respond_to do |format|
+      format.html
+      format.json { render json: @players}
     end
   end
 
@@ -78,15 +88,6 @@ class PlayersController < ApplicationController
     respond_to do |format|
       format.html { redirect_to players_url }
       format.json { head :no_content }
-    end
-  end
-
-  def recent
-    @players = Player.recent
-
-    respond_to do |format|
-      format.html
-      format.json { render json: @players}
     end
   end
 end
