@@ -56,6 +56,7 @@ class PlayersController < ApplicationController
       if @player.save
         format.html { redirect_to @player, notice: 'Player was successfully created.' }
         format.json { render json: @player, status: :created, location: @player }
+        Notifications.new_game(@player).deliver
       else
         format.html { render action: "new" }
         format.json { render json: @player.errors, status: :unprocessable_entity }
