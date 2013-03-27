@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notifications/new_player.text.erb" afterPath="$PROJECT_DIR$/app/views/notifications/new_player.text.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notifications.rb" afterPath="$PROJECT_DIR$/app/mailers/notifications.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/players_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/players_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kickballer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,12 +37,13 @@
     <file path="/players_spec.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362013466677" ignored="false" />
     <file path="/routes.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1363825502869" ignored="false" />
     <file path="/_links.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1362018335495" ignored="false" />
-    <file path="/players_controller.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364424341227" ignored="false" />
+    <file path="/players_controller.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364425080900" ignored="false" />
     <file path="/application_helper.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1363820404960" ignored="false" />
     <file path="/recent.html.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1363826233722" ignored="false" />
-    <file path="/notifications.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364424308779" ignored="false" />
+    <file path="/notifications.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364424881466" ignored="false" />
     <file path="/Gemfile" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364424068249" ignored="false" />
     <file path="/development.rb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364424136660" ignored="false" />
+    <file path="/new_player.text.erb" changelist="84d8c53b-e5c3-4569-b7ab-b5d25b0c8d18" time="1364425233265" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,15 +65,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/players/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,16 +104,25 @@
       <file leaf-file-name="notifications.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/notifications.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="11" column="25" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="players_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/players_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="34" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.397351">
+            <state line="65" column="17" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_player.text.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/notifications/new_player.text.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.062413316">
               <folding />
             </state>
           </provider>
@@ -175,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/spec/models/player_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -191,6 +188,7 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/mailers/notifications.rb" />
         <option value="$PROJECT_DIR$/app/controllers/players_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/notifications/new_player.text.erb" />
       </list>
     </option>
   </component>
@@ -487,6 +485,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifications" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1169,11 +1171,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="86" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1265,14 +1262,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/notifications.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="11" column="25" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/players_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="34" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.397351">
+        <state line="65" column="17" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notifications/new_player.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.062413316">
           <folding />
         </state>
       </provider>

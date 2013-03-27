@@ -7,7 +7,7 @@ class Notifications < ActionMailer::Base
   #   en.notifications.new_player.subject
   #
   def new_player(player)
-    @greeting = "Hi, a new player has been added to your squad!"
+    @greeting = "Hi, a new player has been added for you!"
     @player = player
     mail to: player.email
   end
